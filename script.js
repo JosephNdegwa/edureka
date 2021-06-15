@@ -61,5 +61,51 @@ if(numbers[0]==numbers[2] && numbers[2]==numbers[6]) {
     console.log('Correct');
 }
 else {
-    console.log('Wrong,try again.');
+    //console.log('Wrong,try again.');
+}
+
+//Loop
+//while
+let i=0;
+//while(i<5) {
+   // console.log('The number is ' +i);
+    //i++;
+//}
+
+//Do While
+/*do{
+    console.log('The number is ' +i);
+    i++;
+}
+while(i>5);
+*/
+
+//For Loop
+/*for(i=0;i<5;i++) {
+    //console.log('The number is '+i);
+}
+
+for(i=0;i<50;i++) {
+    console.log(i+ ". I'm sorry");
+}*/
+
+//Switch
+let games='football';
+switch(games) {
+    case "throwball":
+        console.log("I hate throwball");
+    break;
+    case "basketball":
+        console.log("Basketball is hard");
+    break;
+    case "cricket":
+        console.log("I'm a huge cricket fan");
+    break;
+    case "football":
+        console.log("I love football");
+    break;
+    default:
+        console.log("I like other games");
+
+        
 }
